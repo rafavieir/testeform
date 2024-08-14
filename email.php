@@ -11,17 +11,17 @@ $email_visitante 			= $_POST['email'];
 $telefone 					= $_POST['telefone'];
 $observacoes 				= $_POST['observacoes'];
 
-//Tipo de email
+//config smtp
 
 if($_POST['tipo'] == 1)
 {
-	$tipos = 'email-ssl.com.br';
+	$tipos = 'host_smtp';
 	$porta = 465;
 	$segu  = 'ssl';
 }
 else
 {
-	$tipos = 'mail.exchangecorp.com.br';
+	$tipos = 'hostsmtp';
 	$porta = 587;
 	$segu  = 'tls';
 }

@@ -40,11 +40,11 @@
             </div>
         </div>
 				<div class="form-group">
-            <label class="control-label col-sm-2" for="txtnome"><i style="color:red; font-weight: bold">Locamail/Exchange:</i></label>
+            <label class="control-label col-sm-2" for="txtnome"><i style="color:red; font-weight: bold">qual smtp utilizar:</i></label>
             <div class="col-sm-7">
                 <select class="form-select form-control" aria-label="Default select example" name="tipo" required>
-				  <option value="1">Locamail</option>
-				  <option value="2">Exchange</option>
+				  <option value="1">1</option>
+				  <option value="2">2</option>
 				</select>
                 <div class="help-block with-errors"></div>
             </div>
